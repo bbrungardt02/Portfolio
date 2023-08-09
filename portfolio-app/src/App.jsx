@@ -8,14 +8,16 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="app_flex">
+    <div className="app-container">
       <Nav />
-      <Routes className="route_flex">
-        <Route path="/" element={<HomePage />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      <Footer />
+      <div className="content">
+        <Routes className="route_flex">
+          <Route path="/" element={<HomePage />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
+      <Footer className="footer" />
     </div>
   );
 }

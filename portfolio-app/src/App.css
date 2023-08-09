@@ -1,14 +1,9 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+  min-height: 100vh;
 }
 
 a {
@@ -18,31 +13,225 @@ a {
 a:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
 
 /* Nav */
+nav {
+  background-color: #f2f2f2;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    45deg,
+    #f2f2f2 25%,
+    #e6e6e6 25%,
+    #e6e6e6 50%,
+    #f2f2f2 50%,
+    #f2f2f2 75%,
+    #e6e6e6 75%,
+    #e6e6e6 100%
+  );
+  background-size: 10px 10px;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+nav a {
+  text-decoration: none;
+  color: #646cff;
+  font-weight: 500;
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 300ms;
+}
+
+nav a:hover {
+  background-color: #646cff;
+  color: #ffffff;
+}
+/* End of Nav styles */
 
 /* Home */
 
-/* Footer */
+/* End of Home styles */
 
-/* Contact */
+/* Footer Container */
+footer {
+  background-color: #f2f2f2;
+  padding: 1rem;
+  width: 100%;
+}
+
+footer p,
+footer a {
+  text-align: center;
+}
+
+footer a {
+  display: block;
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  transition: filter 300ms;
+}
+
+footer a:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons a {
+  position: relative;
+  color: #000;
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  transition: color 300ms;
+}
+
+.social-icons .icon path {
+  fill: transparent;
+  stroke-width: 12;
+  stroke: #646cff;
+}
+
+.social-icons .icon#mail path {
+  stroke-width: 3;
+  stroke-dasharray: 340;
+  stroke-dashoffset: 0;
+}
+.social-icons .icon#mail:hover path {
+  animation: animate-icon-mail 2s linear forwards;
+}
+@keyframes animate-icon-mail {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  40% {
+    stroke-dashoffset: 340;
+  }
+  80% {
+    stroke-dashoffset: 680;
+    fill: transparent;
+  }
+  100% {
+    stroke-dashoffset: 680;
+    fill: #646cff;
+  }
+}
+
+.social-icons .icon#linkedin path {
+  stroke-dasharray: 1720;
+  stroke-dashoffset: 0;
+}
+.social-icons .icon#linkedin:hover path {
+  animation: animate-icon-linkedin 2s linear forwards;
+}
+@keyframes animate-icon-linkedin {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  40% {
+    stroke-dashoffset: 1720;
+  }
+  80% {
+    stroke-dashoffset: 3440;
+    fill: transparent;
+  }
+  100% {
+    stroke-dashoffset: 3440;
+    fill: #646cff;
+  }
+}
+
+.social-icons .icon#github path {
+  stroke-width: 20;
+  stroke-dasharray: 5500;
+  stroke-dashoffset: 0;
+}
+.social-icons .icon#github:hover path {
+  animation: animate-icon-github 2s linear forwards;
+}
+@keyframes animate-icon-github {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  40% {
+    stroke-dashoffset: 5500;
+  }
+  80% {
+    stroke-dashoffset: 10000;
+    fill: transparent;
+  }
+  100% {
+    stroke-dashoffset: 10000;
+    fill: #646cff;
+  }
+}
+
+#footerParent p {
+  color: #646cff;
+}
+
+#downArrow {
+  color: #646cff;
+  padding-bottom: 0.5rem;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+body > .app-container {
+  flex: 1;
+}
+/* End of footer styles */
+
+/* Contact Container*/
+
+/* End of Contact styles */
 
 /* Projects */
+
+/* End of Projects styles */
+
+/* Mobile */
+@media (max-width: 480px) {
+  /* styles */
+}
+/* Extra small devices */
+@media (min-width: 481px) and (max-width: 767px) {
+  /* styles */
+}
+/* Small tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* styles */
+}
+/* Large tablets/laptops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* styles */
+}
+/* Desktops */
+@media (min-width: 1200px) and (max-width: 1919px) {
+  /* styles */
+}
+/* Extra large screens */
+@media (min-width: 1920px) {
+  /* styles */
+}

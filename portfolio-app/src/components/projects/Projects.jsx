@@ -9,7 +9,15 @@ export default function Projects() {
         on. Each project showcases my skills and expertise in web development.
       </p>
       <section>
-        <h2>Mickey D's</h2>
+        <h2>
+          <a
+            href="https://mickey-d.onrender.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Mickey D's
+          </a>
+        </h2>
         <p>
           Crafted a robust Full Stack McDonald's themed website, allowing users
           to log in, register, and place orders with seamless checkout.
@@ -21,7 +29,16 @@ export default function Projects() {
       </section>
 
       <section>
-        <h2>Stranger's Things</h2>
+        <h2>
+          {" "}
+          <a
+            href="https://brandon-strangers-things.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Stranger's Things
+          </a>
+        </h2>
         <p>
           Implemented an efficient navigation bar, elevating user experience and
           streamlining platform navigation. Developed a robust forum application

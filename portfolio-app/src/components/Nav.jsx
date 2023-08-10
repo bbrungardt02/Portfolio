@@ -20,13 +20,13 @@ export default function Nav() {
   return (
     <div className="nav-container">
       <nav className="fancy-nav">
-        <NavLink to="/" className="nav-link" activeClassName="active">
+        <NavLink to="/" className="nav-link" activeclasscame="active">
           About
         </NavLink>
-        <NavLink to="/projects" className="nav-link" activeClassName="active">
+        <NavLink to="/projects" className="nav-link" activeclassname="active">
           Projects
         </NavLink>
-        <NavLink to="/contact" className="nav-link" activeClassName="active">
+        <NavLink to="/contact" className="nav-link" activeclassname="active">
           Contact
         </NavLink>
       </nav>

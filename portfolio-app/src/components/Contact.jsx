@@ -25,7 +25,7 @@ export default function Contact() {
           https://www.linkedin.com/in/brandonbrungardt
         </a>
       </section>
-      <div class="word-container">
+      <div className="word-container">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
           turpis vel faucibus. Ut non gravida velit, id pellentesque orci.

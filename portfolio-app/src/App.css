@@ -45,9 +45,9 @@ a:hover {
 }
 
 .nav-link:hover {
-  background-color: rgba(100, 108, 255, 0.7);
+  background-color: rgba(100, 108, 255, 0.5);
   transform: scale(1.05);
-  box-shadow: 0 0 15px rgba(138, 43, 226, 0.7);
+  box-shadow: 0 0 15px rgba(100, 108, 255, 1);
 }
 
 .nav-link.active {

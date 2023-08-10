@@ -15,44 +15,45 @@ a:hover {
 }
 
 /* Nav */
-nav {
-  background-color: #f2f2f2;
+
+.nav-container {
+  background-position: center top;
+  background-size: cover;
+  background-image: url("./assets/stars-background.jpeg");
+  background-repeat: repeat-y;
   padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+.fancy-nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(
-    45deg,
-    #f2f2f2 25%,
-    #e6e6e6 25%,
-    #e6e6e6 50%,
-    #f2f2f2 50%,
-    #f2f2f2 75%,
-    #e6e6e6 75%,
-    #e6e6e6 100%
-  );
-  background-size: 10px 10px;
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 9999;
 }
 
-nav a {
+.nav-link {
   text-decoration: none;
-  color: #646cff;
-  font-weight: 500;
-  margin: 0 1rem;
+  color: white;
+  font-weight: bold;
   padding: 0.5rem 1rem;
-  border-radius: 4px;
-  transition: background-color 300ms;
+  margin: 0 1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
 }
 
-nav a:hover {
-  background-color: #646cff;
-  color: #ffffff;
+.nav-link:hover {
+  background-color: rgba(100, 108, 255, 0.7);
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(138, 43, 226, 0.7);
 }
+
+.nav-link.active {
+  text-decoration: underline;
+}
+
 /* End of Nav styles */
 
 /* Home */
@@ -189,6 +190,7 @@ footer a:hover {
 }
 
 .app-container {
+  background-color: white;
   display: flex;
   flex-direction: column;
   min-height: 100vh;

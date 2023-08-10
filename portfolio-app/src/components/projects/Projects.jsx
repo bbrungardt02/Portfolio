@@ -1,13 +1,11 @@
 import React from "react";
-
+import mickeyDHomePage from "./mickey-d-homepage.png";
+import strangersThingsHomePage from "./stranger's-things.png";
 export default function Projects() {
   return (
-    <div>
+    <div id="projects-container">
       <h1>Projects</h1>
-      <p>
-        Welcome to my projects page. Below are some of the projects I've worked
-        on. Each project showcases my skills and expertise in web development.
-      </p>
+      <p>Welcome to my projects page</p>
       <section>
         <h2>
           <a
@@ -25,12 +23,13 @@ export default function Projects() {
           user experience. Demonstrated strong leadership, fostering teamwork to
           optimize formats and efficiencies within the group.
         </p>
-        {/* Add images or links to project demos here */}
+        <div className="project-image-container">
+          <img id="mickey-d" src={mickeyDHomePage} alt="Mickey-D-HomePage" />
+        </div>
       </section>
 
       <section>
         <h2>
-          {" "}
           <a
             href="https://brandon-strangers-things.netlify.app/"
             target="_blank"
@@ -48,7 +47,13 @@ export default function Projects() {
           skills to prevent merge conflicts and enhance efficiency. Leveraged
           React and AuthProvider to create a powerful front-end experience.
         </p>
-        {/* Add images or links to project demos here */}
+        <div className="project-image-container">
+          <img
+            id="strangers-things"
+            src={strangersThingsHomePage}
+            alt="Strangers-Things-HomePage"
+          />
+        </div>
       </section>
 
       {/* Add more project sections as needed */}

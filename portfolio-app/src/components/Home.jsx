@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"; // If using React Router for navigation
 
 export default function HomePage() {
   return (
-    <div>
+    <div id="home-container">
       <header>
         <h1>Brandon Brungardt</h1>
       </header>
@@ -21,7 +21,7 @@ export default function HomePage() {
             abilities to new heights.
           </p>
         </section>
-        <section>
+        <section id="skills-container">
           <h2>Skills</h2>
           <p>
             Javascript • React • PostgreSQL • github • git

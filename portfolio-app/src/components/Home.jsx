@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  FaGithub,
-  FaReact,
-  FaCss3Alt,
-  FaNode,
-  FaHtml5,
-  FaGit,
-} from "react-icons/fa";
+import { FaGithub, FaReact, FaCss3Alt, FaHtml5, FaGit } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { SiExpress } from "react-icons/si";
 
@@ -35,8 +28,8 @@ export default function HomePage() {
           <ul>
             <li>
               <svg
-                width="50px"
-                height="50px"
+                width="70px"
+                height="70px"
                 viewBox="0 0 256 256"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -46,33 +39,33 @@ export default function HomePage() {
               JavaScript
             </li>
             <li>
-              <FaReact size={50} id="react-icon" />
+              <FaReact size={70} id="react-icon" />
               React
             </li>
             <li>
-              <BiLogoPostgresql size={50} id="postgresql-icon" />
+              <BiLogoPostgresql size={70} id="postgresql-icon" />
               PostgreSQL
             </li>
             <li>
-              <FaGithub size={50} id="github-icon" />
+              <FaGithub size={70} id="github-icon" />
               GitHub
             </li>
             <li>
-              <FaGit size={50} id="git-icon" />
+              <FaGit size={70} id="git-icon" />
               Git
             </li>
             <li>
-              <FaHtml5 size={50} id="html-icon" />
+              <FaHtml5 size={70} id="html-icon" />
               HTML
             </li>
             <li>
-              <FaCss3Alt size={50} id="css-icon" />
+              <FaCss3Alt size={70} id="css-icon" />
               CSS
             </li>
             <li>
               <svg
-                width="50px"
-                height="50px"
+                width="70px"
+                height="70px"
                 viewBox="0 -99 512 512"
                 xmlns="http://www.w3.org/2000/svg"
                 xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -234,8 +227,8 @@ export default function HomePage() {
               Node.js
             </li>
             <li>
-              <SiExpress size={50} id="express-icon" />
-              Express
+              <SiExpress size={70} id="express-icon" />
+              ExpressJS
             </li>
           </ul>
         </section>

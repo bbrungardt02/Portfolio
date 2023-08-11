@@ -7,35 +7,32 @@ export default function Projects() {
       <h1>Projects</h1>
       <p>Utilizing React.js, PostgreSQL, and ExpressJS</p>
       <section className="project-card">
-        <h2>
-          <a
-            href="https://mickey-d.onrender.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Mickey D's
-          </a>
-        </h2>
-        <p>
-          Crafted a robust Full-Stack McDonald's themed website, allowing users
-          to log in, register, and place orders with seamless checkout.
-          Implemented React, Express, and PostgreSQL in Javascript for a dynamic
-          user experience.
-        </p>
-        <div className="project-image-container">
-          <img id="mickey-d" src={mickeyDHomePage} alt="Mickey-D-HomePage" />
+        <div className="box">
+          <span></span>
+          <h2>Mickey D's</h2>
+          <p>
+            Crafted a robust Full-Stack McDonald's themed website, allowing
+            users to log in, register, and place orders with seamless checkout.
+            Implemented React, Express, and PostgreSQL in Javascript for a
+            dynamic user experience.
+          </p>
+          <div className="project-image-container">
+            <a
+              href="https://mickey-d.onrender.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                id="mickey-d"
+                src={mickeyDHomePage}
+                alt="Mickey-D-HomePage"
+              />
+            </a>
+          </div>
         </div>
       </section>
       <section className="project-card">
-        <h2>
-          <a
-            href="https://brandon-strangers-things.netlify.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Stranger's Things
-          </a>
-        </h2>
+        <h2>Stranger's Things</h2>
         <p>
           Leveraged React and AuthProvider to create a powerful front-end
           experience.Implemented an efficient navigation bar, elevating user
@@ -44,11 +41,17 @@ export default function Projects() {
           manage their profiles effortlessly.
         </p>
         <div className="project-image-container">
-          <img
-            id="strangers-things"
-            src={strangersThingsHomePage}
-            alt="Strangers-Things-HomePage"
-          />
+          <a
+            href="https://brandon-strangers-things.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              id="strangers-things"
+              src={strangersThingsHomePage}
+              alt="Strangers-Things-HomePage"
+            />
+          </a>
         </div>
       </section>
       {/* Add more project sections as needed */}

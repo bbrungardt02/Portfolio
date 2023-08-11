@@ -260,11 +260,6 @@ body > .app-container {
 /* End of Contact styles */
 
 /* Projects */
-.project-card {
-  padding-top: 5vh;
-  padding-bottom: 5vh;
-}
-
 #projects-container p {
   margin-left: auto;
   margin-right: auto;
@@ -272,11 +267,20 @@ body > .app-container {
   padding-bottom: 2vh;
 }
 
+.project-card {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  max-width: 40vh;
+}
+
 .project-image-container {
   margin-left: auto;
   margin-right: auto;
   max-width: 100vh;
-  max-height: 100vh;
+  max-height: 50vh;
   overflow-y: auto;
 }
 

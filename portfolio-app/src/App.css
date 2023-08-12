@@ -322,7 +322,7 @@ a {
   min-height: 605px;
   justify-content: center;
   align-items: center;
-  margin: 40px 30px;
+  margin: 40px 50px;
   transition: 0.5s;
   display: flex;
 }
@@ -451,7 +451,6 @@ a {
   padding: 7.5vh 5vh 7.5vh;
   margin-left: -5vh;
   margin-right: -5vh;
-  /* min-width: 100%; */
 }
 .project-card-container .box .content h2 {
   font-size: 2em;
@@ -497,10 +496,20 @@ a {
   #projects-container {
     overflow-x: hidden;
   }
-  #projects-container section {
+  /* #projects-container section {
     min-width: 40vh;
-  }
-  .project-image-container {
+  } */
+  /* .project-image-container {
     overflow-y: scroll;
+  } */
+  .project-card-container .box {
+    width: 250px;
+  }
+  .project-card-container .box::before {
+    left: 60px;
+    transform: skewX(5deg);
+  }
+  .project-card-container .box::after {
+    transform: skewX(5deg);
   }
 }

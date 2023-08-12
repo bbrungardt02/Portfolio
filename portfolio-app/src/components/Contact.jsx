@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div>
+    <div id="contact-container">
       <section>
         <h2>GitHub</h2>
         <p>Check out my GitHub profile to explore some of my projects:</p>

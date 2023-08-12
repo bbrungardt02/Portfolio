@@ -496,12 +496,6 @@ a {
   #projects-container {
     overflow-x: hidden;
   }
-  /* #projects-container section {
-    min-width: 40vh;
-  } */
-  /* .project-image-container {
-    overflow-y: scroll;
-  } */
   .project-card-container .box {
     width: 250px;
   }

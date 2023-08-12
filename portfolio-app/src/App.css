@@ -490,8 +490,17 @@ a {
 /* End of Projects styles */
 
 @media (max-width: 480px) {
+  #home-container p {
+    margin: 40px;
+  }
+  #skills-container {
+    margin: 40px;
+  }
   #projects-container {
     overflow-x: hidden;
+  }
+  #projects-container header p {
+    margin: 40px;
   }
   .project-card-container .box {
     width: 250px;
@@ -502,5 +511,8 @@ a {
   }
   .project-card-container .box::after {
     transform: skewX(5deg);
+  }
+  #contact-container section {
+    margin: 40px;
   }
 }

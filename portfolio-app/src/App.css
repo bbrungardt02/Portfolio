@@ -78,6 +78,7 @@ a:hover {
 
 #skills-container {
   padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 #skills-container ul {
@@ -312,6 +313,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 10vh;
 }
 .project-card-container .box {
   position: relative;
@@ -319,7 +321,7 @@ a {
   min-height: 605px;
   justify-content: center;
   align-items: center;
-  margin: 40px 50px;
+  margin: 0 50px;
   transition: 0.5s;
   display: flex;
 }
@@ -441,11 +443,12 @@ a {
   z-index: 1;
   transform: 0.5s;
   transition: padding 0.5s ease-in-out, margin-left 0.5s ease-in-out,
-    margin-right 0.5s ease-in-out;
+    margin-right 0.5s ease-in-out, font-size 0.5s ease-in-out;
   color: #fff;
 }
 .project-card-container .box:hover .content {
   padding: 7.5vh 5vh 7.5vh;
+  font-size: 1.3em;
   margin-left: -5vh;
   margin-right: -5vh;
 }

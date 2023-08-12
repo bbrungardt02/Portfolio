@@ -315,14 +315,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* min-height: 100vh; */
 }
-/* .project-card-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-} */
 .project-card-container .box {
   position: relative;
   width: 450px;
@@ -455,9 +448,9 @@ a {
   color: #fff;
 }
 .project-card-container .box:hover .content {
-  padding: 60px 40px 60px;
-  margin-left: -40px;
-  margin-right: -40px;
+  padding: 7.5vh 5vh 7.5vh;
+  margin-left: -5vh;
+  margin-right: -5vh;
   /* min-width: 100%; */
 }
 .project-card-container .box .content h2 {
@@ -493,13 +486,21 @@ a {
   overflow-y: auto;
 }
 
-#mickey-d {
+.project-image-container img {
   max-width: 100%;
   max-height: 100%;
 }
 
-#strangers-things {
-  max-width: 100%;
-  max-height: 100%;
-}
 /* End of Projects styles */
+
+@media (max-width: 480px) {
+  #projects-container {
+    overflow-x: hidden;
+  }
+  #projects-container section {
+    min-width: 40vh;
+  }
+  .project-image-container {
+    overflow-y: scroll;
+  }
+}

@@ -282,6 +282,8 @@ body > .app-container {
 #contact-container section p,
 a {
   font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
 }
 /* End of Contact styles */
 

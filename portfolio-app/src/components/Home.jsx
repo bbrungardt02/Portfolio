@@ -12,9 +12,9 @@ export default function HomePage() {
       <main>
         <section>
           <p>
-            Greetings! I'm a recent FullStack Academy graduate. My journey
-            commenced at Labette Community College, where I earned an
-            associate's degree in General Studies, uncertain of the path ahead.
+            Greetings! I'm a FullStack Academy graduate. My journey commenced at
+            Labette Community College, where I earned an associate's degree in
+            General Studies, uncertain of the path ahead.
             <br />
             However, upon joining FullStack Academy, I discovered my true
             passion. The coding world's boundless creativity and possibilities
